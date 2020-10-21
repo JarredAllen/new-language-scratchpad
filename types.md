@@ -24,6 +24,7 @@ There are three memory management systems which a structure can use: copied, own
 
  * Garbage-collected values are allocated on the heap and pointed to.
    * Structs default to this type if they contain a value which cannot be trivially copied
+   * Note to self: Look at Go to see how to do this for a compiled language
 
 To change the memory management type of a struct, you can modify it using a syntax like this:
 ```
